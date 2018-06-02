@@ -12,7 +12,5 @@ import HomeHeader from './component/Header.vue'
     }
 </script>
 <style>
-.home{
-    font-size: 50px;
-}
+
 </style>
