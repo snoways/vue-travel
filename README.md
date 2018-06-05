@@ -37,4 +37,18 @@ new Vue({
 npm install stylus --save
 npm install stylus-loader --save
 
-```
+```  
+>### 7.安装轮播组件  
+'''
+npm install vue-awesome-swiper --save
+
+全局引用
+import Vue from 'vue'
+import VueAwesomeSwiper from 'vue-awesome-swiper'
+
+// require styles
+import 'swiper/dist/css/swiper.css'
+
+Vue.use(VueAwesomeSwiper, /* { default global options } */)
+
+'''
